@@ -1,0 +1,233 @@
+
+
+
+.box {
+    width: 90%;
+    max-width: 1200px;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 20px;
+}
+
+.block, .summary {
+    background: white;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+.block h2, .summary h2 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.block h2::before {
+    content: "";
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background: black;
+    color: white;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 30px;
+    margin-right: 10px;
+    font-size: 1em;
+}
+
+#identificacao h2::before { content: "1"; }
+#entrega h2::before { content: "2"; }
+#pagamento h2::before { content: "3"; }
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.checkbox {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+.checkbox input {
+    margin-right: 10px;
+}
+
+.checkbox label {
+    font-weight: normal;
+}
+
+.checkbox a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.checkbox a:hover {
+    text-decoration: underline;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #333;
+}
+
+.summary h2 span {
+    font-weight: normal;
+    font-size: 0.8em;
+    margin-left: 10px;
+}
+
+.summary h2 a {
+    font-size: 0.8em;
+    color: #007bff;
+    text-decoration: none;
+    float: right;
+}
+
+.summary h2 a:hover {
+    text-decoration: underline;
+}
+
+.product-summary {
+    display: flex;
+    align-items: center;
+    margin-bott
+    body 
+        font-family: Arial, sans-serif;
+        background-color: #f9f9f9;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .container {
+        width: 90%;
+        max-width: 1200px;
+        margin: 20px auto;
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        gap: 20px;
+    }
+    
+    .block, .summary {
+        background: white;
+        padding: 20px;
+        border: 1px solid #ddd;
+        border-radius: 10px;
+    }
+    
+    .block h2, .summary h2 {
+        font-size: 1.2em;
+        margin-bottom: 10px;
+        position: relative;
+    }
+    
+    .block h2::before {
+        content: "";
+        display: inline-block;
+        width: 30px;
+        height: 30px;
+        background: black;
+        color: white;
+        border-radius: 50%;
+        text-align: center;
+        line-height: 30px;
+        margin-right: 10px;
+        font-size: 1em;
+    }
+    
+    #identificacao h2::before { content: "1"; }
+    #entrega h2::before { content: "2"; }
+    #pagamento h2::before { content: "3"; }
+    
+    label {
+        display: block;
+        margin-bottom: 5px;
+        font-weight: bold;
+    }
+    
+    input[type="email"] {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 10px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+    }
+    
+    .checkbox {
+        display: flex;
+        align-items: flex-start;
+        margin-bottom: 20px;
+    }
+    
+    .checkbox input {
+        margin-right: 10px;
+    }
+    
+    .checkbox label {
+        font-weight: normal;
+    }
+    
+    .checkbox a {
+        color: #007bff;
+        text-decoration: none;
+    }
+    
+    .checkbox a:hover {
+        text-decoration: underline;
+    }
+    
+    button {
+        padding: 10px 20px;
+        background-color: black;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    
+    button:hover {
+        background-color: #333;
+    }
+    
+    .summary h2 span {
+        font-weight: normal;
+        font-size: 0.8em;
+        margin-left: 10px;
+    }
+    
+    .resumo h2 a {
+        font-size: 0.8em;
+        color: #007bff;
+        text-decoration: none;
+        float: right;
+    }
+    
+    .resumo h2 a:hover {
+        text-decoration: underline;
+    }
+    
+    .resumo-pedido {
+        display: flex;
+        align-items: center;
+        margin-bott
+    }
